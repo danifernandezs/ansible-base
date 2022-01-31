@@ -26,3 +26,17 @@ Run a playbook:
 ```
 $ ansible-playbook -i inventory/localhost.yml <playbook>
 ```
+
+# Local execution environment requirements
+
+RPM package
+```bash
+python3-passlib
+```
+
+Via pip
+```bash
+openshift
+pyyaml
+kubernetes
+```
